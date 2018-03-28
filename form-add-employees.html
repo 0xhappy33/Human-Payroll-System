@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>Ela - Bootstrap Admin Dashboard Template</title>
+    <title>2in1 - Integration human system and payroll system</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -28,7 +28,7 @@
     <!-- Preloader - style you can find in spinners.css -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+			<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" ></circle> </svg>
     </div>
     <!-- Main wrapper  -->
     <div id="main-wrapper">
@@ -37,7 +37,7 @@
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- Logo -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index-human.html">
                         <!-- Logo icon -->
                         <b><img src="images/logo.png" alt="homepage" class="dark-logo" /></b>
                         <!--End Logo icon -->
@@ -245,8 +245,8 @@
                         <li class="nav-label">Home</li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard <span class="label label-rouded label-primary pull-right">2</span></span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="index.html">Ecommerce </a></li>
-                                <li><a href="index1.html">Analytics </a></li>
+                                <li><a href="index-human.html">Ecommerce </a></li>
+                                <li><a href="index-payroll.html">Analytics </a></li>
                             </ul>
                         </li>
                         <li class="nav-label">Apps</li>
@@ -301,8 +301,8 @@
                         </li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-table"></i><span class="hide-menu">Tables</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="table-bootstrap.html">Basic Tables</a></li>
-                                <li><a href="table-datatable.html">Data Tables</a></li>
+                                <li><a href="table-list-employees.html">Basic Tables</a></li>
+                                <li><a href="table-payroll.html">Data Tables</a></li>
                             </ul>
                         </li>
                         <li class="nav-label">Layout</li>
@@ -369,8 +369,7 @@
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Dashboard</h3>
-                </div>
+                    <h3 class="text-primary">Dashboard</h3> </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
@@ -382,201 +381,114 @@
             <!-- Container fluid  -->
             <div class="container-fluid">
                 <!-- Start Page Content -->
-                <div class="row">
-                    <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
                         <div class="card">
                             <div class="card-body">
-                                <div class="row justify-content-between">
-                                    <div class="col-lg-6">
-                                        <h4 class="card-title">Typography</h4>
-                                        <div class="card-content">
-                                            <h6 class="card-subtitle">Use tags <code>h1 to h6</code> for get desire heading.</h6>
-                                            <h1>h1. Bootstrap heading</h1>
-                                            <h2>h2. Bootstrap heading</h2>
-                                            <h3>h3. Bootstrap heading</h3>
-                                            <h4>h4. Bootstrap heading</h4>
-                                            <h5>h5. Bootstrap heading</h5>
-                                            <h6>h6. Bootstrap heading</h6>
+                                <div class="form-validation">
+                                    <form class="form-valide" action="#" method="post">
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-username">Username <span class="text-danger">*</span></label>
+                                            <div class="col-lg-6">
+                                                <input type="text" class="form-control" id="val-username" name="val-username" placeholder="Enter a username..">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <h4 class="card-title">Heading with subtitle</h4>
-                                        <h6 class="card-subtitle">Use tags <code>h1 to h6</code> for get desire heading.</h6>
-                                        <div class="card-content">
-                                            <h1>Heading 1 <small>Sub-heading</small></h1>
-                                            <h2>Heading 2 <small>Sub-heading</small></h2>
-                                            <h3>Heading 3 <small>Sub-heading</small></h3>
-                                            <h4>Heading 4 <small>Sub-heading</small></h4>
-                                            <h5>Heading 5 <small>Sub-heading</small></h5>
-                                            <h6>Heading 6 <small>Sub-heading</small></h6>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-email">Email <span class="text-danger">*</span></label>
+                                            <div class="col-lg-6">
+                                                <input type="text" class="form-control" id="val-email" name="val-email" placeholder="Your valid email..">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <br>
-                                        <br>
-                                        <hr>
-                                        <br>
-                                        <br>
-                                    </div>
-                                    <div class="col-lg-5">
-                                        <h4 class="card-title">Paragraph with justify</h4>
-                                        <div class="card-content">
-                                            <h6 class="card-subtitle">Use tags <code>text-justify</code> for get desire paragraph.</h6>
-                                            <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac,
-                                                sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-password">Password <span class="text-danger">*</span></label>
+                                            <div class="col-lg-6">
+                                                <input type="password" class="form-control" id="val-password" name="val-password" placeholder="Choose a safe one..">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6 offset-lg-1">
-                                        <h4 class="card-title">Alignment text</h4>
-                                        <div class="card-content">
-                                            <h6 class="card-subtitle">Use tags <code>text-left, text-center, text-right</code> for get desire text.</h6>
-                                            <p class="text-left">Left aligned text on all viewport sizes.</p>
-                                            <p class="text-center">Center aligned text on all viewport sizes.</p>
-                                            <p class="text-right">Right aligned text on all viewport sizes.</p>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-confirm-password">Confirm Password <span class="text-danger">*</span></label>
+                                            <div class="col-lg-6">
+                                                <input type="password" class="form-control" id="val-confirm-password" name="val-confirm-password" placeholder="..and confirm it!">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <br>
-                                        <br>
-                                        <hr>
-                                        <br>
-                                        <br>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <h4 class="card-title">View port text</h4>
-                                        <div class="card-content">
-                                            <h6 class="card-subtitle">Use tags <code>text-sm-left, text-md-left, text-lg-left, text-xl-left </code> for get desire text.</h6>
-                                            <p class="text-sm-left">Left aligned text on viewports sized SM (small) or wider.</p>
-                                            <p class="text-md-left">Left aligned text on viewports sized MD (medium) or wider.</p>
-                                            <p class="text-lg-left">Left aligned text on viewports sized LG (large) or wider.</p>
-                                            <p class="text-xl-left">Left aligned text on viewports sized XL (extra-large) or wider.</p>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-suggestions">Suggestions <span class="text-danger">*</span></label>
+                                            <div class="col-lg-6">
+                                                <textarea class="form-control" id="val-suggestions" name="val-suggestions" rows="5" placeholder="What would you like to see?"></textarea>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <h4 class="card-title">Font weight and italics</h4>
-                                        <div class="card-content">
-                                            <h6 class="card-subtitle">Use tags <code>font-weight-bold, font-weight-normal, font-weight-italic</code> for get desire text.</h6>
-                                            <p class="font-weight-bold">Bold text.</p>
-                                            <p class="font-weight-normal">Normal weight text.</p>
-                                            <p class="font-italic">Italic text.</p>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-skill">Best Skill <span class="text-danger">*</span></label>
+                                            <div class="col-lg-6">
+                                                <select class="form-control" id="val-skill" name="val-skill">
+                                                    <option value="">Please select</option>
+                                                    <option value="html">HTML</option>
+                                                    <option value="css">CSS</option>
+                                                    <option value="javascript">JavaScript</option>
+                                                    <option value="angular">Angular</option>
+                                                    <option value="angular">React</option>
+                                                    <option value="vuejs">Vue.js</option>
+                                                    <option value="ruby">Ruby</option>
+                                                    <option value="php">PHP</option>
+                                                    <option value="asp">ASP.NET</option>
+                                                    <option value="python">Python</option>
+                                                    <option value="mysql">MySQL</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <br>
-                                        <br>
-                                        <hr>
-                                        <br>
-                                        <br>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <h4 class="card-title">Text colors</h4>
-                                        <div class="card-content">
-                                            <h6 class="card-subtitle">Use tags below class for get desire text.</h6>
-                                            <p class="text-muted">This is an example of muted text. Add class <code>text-muted</code></p>
-                                            <p class="text-primary">This is an example of primary text. Add class <code>text-primary</code></p>
-                                            <p class="text-success">This is an example of success text. Add class <code>text-success</code></p>
-                                            <p class="text-info">This is an example of info text. Add class <code>text-info</code></p>
-                                            <p class="text-warning">This is an example of warning text. Add class <code>text-warning</code></p>
-                                            <p class="text-danger">This is an example of danger text. Add class <code>text-danger</code></p>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-currency">Currency <span class="text-danger">*</span></label>
+                                            <div class="col-lg-6">
+                                                <input type="text" class="form-control" id="val-currency" name="val-currency" placeholder="$21.60">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <h4 class="card-title">Address</h4>
-                                        <div class="card-content">
-                                            <h6 class="card-subtitle">Use <code>address</code> for get desire address.</h6>
-                                            <address>
-																<strong>Twitter, Inc.</strong>
-																<br> 795 Folsom Ave, Suite 600
-																<br> San Francisco, CA 94107
-																<br>
-																<abbr title="Phone">P:</abbr>(123) 456-7890
-															</address>
-                                            <address>
-																<strong>George Belly</strong>
-																<br>
-																<a href="mailto:#">first.last@example.com</a>
-															</address>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-website">Website <span class="text-danger">*</span></label>
+                                            <div class="col-lg-6">
+                                                <input type="text" class="form-control" id="val-website" name="val-website" placeholder="http://example.com">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <h4 class="card-title">Blockquotes</h4>
-                                        <h6 class="card-subtitle">Use <code>blockquote</code> for get desire address.</h6>
-                                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</blockquote>
-                                        <blockquote>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                            <small>- Someone famous in <cite title="Source Title">Source Title</cite></small>
-                                        </blockquote>
-                                    </div>
-                                    <div class="col-12">
-                                        <br>
-                                        <br>
-                                        <hr>
-                                        <br>
-                                        <br>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <h4 class="card-title">Ol Listing</h4>
-                                        <h6 class="card-subtitle">Use tags <code>ol > li</code>for get desire ol list.</h6>
-                                        <ol>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Consectetur adipiscing elit</li>
-                                            <li>Integer molestie lorem at massa </li>
-                                        </ol>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <h4 class="card-title">Ul Listing</h4>
-                                        <h6 class="card-subtitle">Use tags <code>ul > li</code>for get desire ol list.</h6>
-                                        <ul>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Consectetur adipiscing elit</li>
-                                            <li>Integer molestie lorem at massa </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <h4 class="card-title">Description Text</h4>
-                                        <h6 class="card-subtitle">Use tags <code>dl > dt</code>for get desire ol list.</h6>
-                                        <dl>
-                                            <dt>Standard Description List</dt>
-                                            <dd>Description Text</dd>
-                                            <dt>Description List Title</dt>
-                                            <dd>Description List Text</dd>
-                                        </dl>
-                                    </div>
-                                    <div class="col-12">
-                                        <br>
-                                        <br>
-                                        <hr>
-                                        <br>
-                                        <br>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <h4 class="card-title">Fancy Listing 1</h4>
-                                        <h6 class="card-subtitle">Use class <code>list-icons</code>to ul for get desire ol list.</h6>
-                                        <ul class="list-icons">
-                                            <li><i class="ti-angle-right"></i> Lorem ipsum dolor sit amet</li>
-                                            <li><i class="ti-angle-right"></i> Consectetur adipiscing elit</li>
-                                            <li><i class="ti-angle-right"></i> Integer molestie lorem at massa </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <h4 class="card-title">Fancy Listing with href</h4>
-                                        <h6 class="card-subtitle">Use class <code>list-icons</code>to ul for get desire ol list.</h6>
-                                        <ul class="list-icons">
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> Lorem ipsum dolor sit amet</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> Consectetur adipiscing elit</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-check text-info"></i> Integer molestie lorem at massa </a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <h4 class="card-title">Fancy Listing with href</h4>
-                                        <h6 class="card-subtitle">Use class <code>list-icons</code>to ul for get desire ol list.</h6>
-                                        <ul class="list-icons">
-                                            <li><a href="javascript:void(0)"><i class="fa fa-chevron-right"></i> Lorem ipsum dolor sit amet</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-chevron-right"></i> Consectetur adipiscing elit</a></li>
-                                            <li><a href="javascript:void(0)"><i class="fa fa-chevron-right"></i> Integer molestie lorem at massa </a></li>
-                                        </ul>
-                                    </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-phoneus">Phone (US) <span class="text-danger">*</span></label>
+                                            <div class="col-lg-6">
+                                                <input type="text" class="form-control" id="val-phoneus" name="val-phoneus" placeholder="212-999-0000">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-digits">Digits <span class="text-danger">*</span></label>
+                                            <div class="col-lg-6">
+                                                <input type="text" class="form-control" id="val-digits" name="val-digits" placeholder="5">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-number">Number <span class="text-danger">*</span></label>
+                                            <div class="col-lg-6">
+                                                <input type="text" class="form-control" id="val-number" name="val-number" placeholder="5.0">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="val-range">Range [1, 5] <span class="text-danger">*</span></label>
+                                            <div class="col-lg-6">
+                                                <input type="text" class="form-control" id="val-range" name="val-range" placeholder="4">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label"><a data-toggle="modal" data-target="#modal-terms" href="#">Terms &amp; Conditions</a> <span class="text-danger">*</span></label>
+                                            <div class="col-lg-8">
+                                                <label class="css-control css-control-primary css-checkbox" for="val-terms">
+                                                                                        <input type="checkbox" class="css-control-input" id="val-terms" name="val-terms" value="1">
+                                                                                        <span class="css-control-indicator"></span> I agree to the terms
+                                                                                    </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-lg-8 ml-auto">
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -585,7 +497,7 @@
             </div>
             <!-- End Container fluid  -->
             <!-- footer -->
-            <footer class="footer"> © 2018 Zebramin Admin by Zebra Theme</footer>
+            <footer class="footer"> © 2018 All rights reserved. Template designed by <a href="https://colorlib.com">Colorlib</a></footer>
             <!-- End footer -->
         </div>
         <!-- End Page wrapper  -->
@@ -602,6 +514,11 @@
     <script src="js/sidebarmenu.js"></script>
     <!--stickey kit -->
     <script src="js/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
+
+
+    <!-- Form validation -->
+    <script src="js/lib/form-validation/jquery.validate.min.js"></script>
+    <script src="js/lib/form-validation/jquery.validate-init.js"></script>
     <!--Custom JavaScript -->
     <script src="js/custom.min.js"></script>
 
