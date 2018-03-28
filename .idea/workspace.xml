@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d70d1ef0-7c2c-40e6-bb7d-f52d83de760f" name="Default" comment="" />
+    <list default="true" id="d70d1ef0-7c2c-40e6-bb7d-f52d83de760f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -52,11 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table-datatable.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="table-datatable.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/table-datatable.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="236">
               <caret line="877" column="41" lean-forward="true" selection-start-line="877" selection-start-column="41" selection-end-line="877" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -68,6 +80,7 @@
     <findStrings>
       <find>Ana</find>
       <find>Recent Orders</find>
+      <find>Data Table</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -79,6 +92,7 @@
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/table-datatable.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -150,12 +164,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522240796394</updated>
-      <workItem from="1522240800179" duration="1587000" />
+      <workItem from="1522240800179" duration="1922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1587000" />
+    <option name="totallyTimeSpent" value="1922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -222,6 +236,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="877" column="41" lean-forward="true" selection-start-line="877" selection-start-column="41" selection-end-line="877" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding />
         </state>
       </provider>
