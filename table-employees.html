@@ -128,25 +128,17 @@
                         <li class="nav-devider"></li>
                         <li class="nav-label">Home</li>
                         <li>
-                            <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-tachometer"></i>
+                            <a class="has-arrow" href="#" aria-expanded="false">
+                                <i class="fa fa-tachometer"></i>
                                 <span class="hide-menu">Dashboard</span>
                             </a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a href="index-human.html">Human resource</a></li>
-                                <li><a href="index-payroll.html">Payroll system</a></li>
+                                <li><a href="index-human.html">User management</a></li>
                             </ul>
                         </li>
-
-                        <li class="nav-label">Apps</li>
-                        <li>
-                            <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-table"></i><span
-                                    class="hide-menu">Data</span>
-                            </a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="table-employees.html">Human resource</a></li>
-                                <li><a href="table-payroll.html">Paroll system</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="table-employees.html"><i class="fa fa-users"></i>Human resource</a></li>
+                        <li><a href="table-payroll.html"><i class="fa fa-money"></i>Paroll system</a></li>
+                        <li><a href="notices.html"><i class="fa fa-bell"></i><span>Notification</span></a></li>
                     </ul>
                 </nav>
                 <!-- End Sidebar navigation -->
@@ -163,7 +155,7 @@
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                        <li class="breadcrumb-item active">Dashboard</li>
+                        <li class="breadcrumb-item active">Human resource</li>
                     </ol>
                 </div>
             </div>
@@ -171,6 +163,48 @@
             <!-- Container fluid  -->
             <div class="container-fluid">
                 <!-- Start Page Content -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card p-30">
+                            <div class="media">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="fa fa-user f-s-40 color-danger"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h2>500</h2>
+                                    <p class="m-b-0">Employees</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-30">
+                            <div class="media">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="fa fa-archive f-s-40 color-warning"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h2>10</h2>
+                                    <p class="m-b-0">Departments</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card p-30">
+                            <div class="media">
+                                <div class="media-left meida media-middle">
+                                    <span><i class="fa fa-shopping-cart f-s-40 color-success"></i></span>
+                                </div>
+                                <div class="media-body media-text-right">
+                                    <h2>117</h2>
+                                    <p class="m-b-0">Projects</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
@@ -184,20 +218,10 @@
                                                 <th>#</th>
                                                 <th>Full Name</th>
                                                 <th>Gender</th>
-                                                <th>Address</th>
-                                                <th>City</th>
-                                                <th>Email</th>
-                                                <th>Phone number</th>
-                                                <th>SSN</th>
-                                                <th>Drivers-Liense</th>
-                                                <th>Status</th>
-                                                <th>Benefit plan</th>
                                                 <th>Ethnicity</th>
-                                                <th>Department</th>
-                                                <th>Location</th>
-                                                <th>Start date</th>
-                                                <th>End date</th>
-                                                <th>Job title</th>
+                                                <th>Full time</th>
+                                                <th>Part time</th>
+                                                <th>Vacation</th>
                                             </tr>
                                         </thead>
                                         <tfoot>
@@ -205,667 +229,75 @@
                                                 <th>#</th>
                                                 <th>Full Name</th>
                                                 <th>Gender</th>
-                                                <th>Address</th>
-                                                <th>City</th>
-                                                <th>Email</th>
-                                                <th>Phone number</th>
-                                                <th>SSN</th>
-                                                <th>Drivers-Liense</th>
-                                                <th>Status</th>
-                                                <th>Benefit plan</th>
                                                 <th>Ethnicity</th>
-                                                <th>Department</th>
-                                                <th>Location</th>
-                                                <th>Start date</th>
-                                                <th>End date</th>
-                                                <th>Job title</th>
+                                                <th>Full time</th>
+                                                <th>Part time</th>
+                                                <th>Vacation</th>
                                             </tr>
                                         </tfoot>
                                         <tbody>
                                             <tr>
-                                                <td>NV01</td>
+                                                <td>001</td>
                                                 <td>Le Hang</td>
                                                 <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
                                                 <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
+                                                <td>Yes</td>
+                                                <td>No</td>
+                                                <td>28</td>
                                             </tr>
                                             <tr>
-                                                <td>NV01</td>
+                                                <td>002</td>
                                                 <td>Le Hang</td>
                                                 <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
                                                 <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
+                                                <td>Yes</td>
+                                                <td>No</td>
+                                                <td>28</td>
                                             </tr>
                                             <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
+                                                <td>003</td>
+                                                <td>Ha Lan</td>
                                                 <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
                                                 <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
+                                                <td>No</td>
+                                                <td>Yes</td>
+                                                <td>28</td>
                                             </tr>
                                             <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
+                                                <td>004</td>
+                                                <td>Xuan Thuy</td>
                                                 <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
                                                 <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
+                                                <td>Yes</td>
+                                                <td>No</td>
+                                                <td>28</td>
                                             </tr>
                                             <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
+                                                <td>005</td>
+                                                <td>Nguyen Xuan Trung</td>
                                                 <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
                                                 <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
+                                                <td>Yes</td>
+                                                <td>No</td>
+                                                <td>28</td>
                                             </tr>
                                             <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
+                                                <td>006</td>
+                                                <td>Tam Nguyen</td>
+                                                <td>Nam</td>
                                                 <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
+                                                <td>No</td>
+                                                <td>Yes</td>
+                                                <td>28</td>
                                             </tr>
                                             <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
+                                                <td>007</td>
+                                                <td>Ha Truong</td>
+                                                <td>Nam</td>
                                                 <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                               <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
-                                            </tr>
-                                            <tr>
-                                                <td>NV01</td>
-                                                <td>Le Hang</td>
-                                                <td>Nữ</td>
-                                                <td>61 Nguyễn Văn Linh</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>hangle@gmail.com</td>
-                                                <td>0994242342</td>
-                                                <td>1213131</td>
-                                                <td>saud203912</td>
-                                                <td>Working</td>
-                                                <td>180923</td>
-                                                <td>Kinh</td>
-                                                <td>Nhan sự</td>
-                                                <td>Đà Nẵng</td>
-                                                <td>4/4/2017</td>
-                                                <td></td>
-                                                <td>Nhân viên</td>
+                                                <td>Yes</td>
+                                                <td>No</td>
+                                                <td>28</td>
                                             </tr>
                                         </tbody>
                                     </table>
